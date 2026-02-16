@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | Covenant Vessel of Hope Vocational Training College</title>
+<meta name="description" content="Explore the photo gallery of Covenant Vessel of Hope Vocational Training College, showcasing campus life, classrooms, and events.">
+<meta name="keywords" content="Gallery, Photos, Vocational College Kenya, TVET Kenya, Campus Life, Classes">
+<meta name="author" content="Covenant Vessel of Hope Vocational Training College">
+
+<link rel="icon" href="images/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* ================= GLOBAL ================= */
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Poppins',sans-serif;background:#f4f6f9;color:#333;line-height:1.7;}
+.container{width:90%;max-width:1200px;margin:auto;}
+section{padding:80px 0;}
+h1,h2,h3{font-weight:600;}
+a{text-decoration:none;color:#fff;}
+.btn{display:inline-block;padding:14px 28px;background:#004080;color:#fff;text-decoration:none;border-radius:6px;transition:0.3s;}
+.btn:hover{background:#002f5f;}
+
+/* ================= TOP BAR ================= */
+.top-bar{background:#ff8000;color:#fff;text-align:center;padding:10px;font-weight:500;font-size:14px;}
+
+/* ================= HEADER ================= */
+header{background:#fff;position:sticky;top:0;z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+.nav-container{display:flex;justify-content:space-between;align-items:center;padding:15px 0;}
+.logo img{height:75px;}
+nav ul{display:flex;list-style:none;gap:30px;}
+nav ul li a{text-decoration:none;color:#333;font-weight:500;transition:0.3s;}
+nav ul li a:hover,
+nav ul li a.active{color:#004080;}
+
+/* ================= HERO ================= */
+.hero{position:relative;height:50vh;background:url('images/gallery-hero.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;}
+.hero::after{content:"";position:absolute;width:100%;height:100%;background:rgba(0,0,0,0.6);}
+.hero-content{position:relative;z-index:2;max-width:800px;}
+.hero h1{font-size:3rem;margin-bottom:20px;}
+.hero p{font-size:1.2rem;}
+
+/* ================= GALLERY ================= */
+.gallery-section{background:#f4f6f9;text-align:center;}
+.gallery-section h2{margin-bottom:20px;color:#004080;}
+.gallery-section p{margin-bottom:40px;color:#555;max-width:700px;margin-left:auto;margin-right:auto;}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.gallery-grid img{width:100%;border-radius:10px;box-shadow:0 5px 15px rgba(0,0,0,0.1);transition:0.3s;cursor:pointer;}
+.gallery-grid img:hover{transform:scale(1.05);box-shadow:0 10px 25px rgba(0,0,0,0.2);}
+
+/* ================= CTA ================= */
+.cta{background:#004080;color:#fff;text-align:center;padding:60px 0;}
+.cta h2{margin-bottom:20px;}
+
+/* ================= FOOTER ================= */
+footer{background:#002f5f;color:#fff;padding:60px 0 20px;}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:40px;}
+footer ul{list-style:none;}
+footer ul li{margin-bottom:10px;}
+footer ul li a{color:#ccc;text-decoration:none;}
+footer ul li a:hover{color:#fff;}
+.newsletter input{padding:10px;width:70%;border:none;border-radius:4px;}
+.newsletter button{padding:10px 15px;border:none;background:#ff8000;color:#fff;border-radius:4px;cursor:pointer;}
+.copyright{text-align:center;margin-top:40px;font-size:14px;}
+
+iframe{border-radius:8px;}
+
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+🎓 March 2026 Intake Ongoing | Limited Slots Available | 
+<a href="apply.html" style="color:#fff;text-decoration:underline;">Apply Now</a>
+</div>
+
+<header>
+  <div class="container nav-container">
+    <a href="index.html" class="logo">
+      <img src="vohlogo.jpg" alt="College Logo">
+    </a>
+
+    <!-- Hidden checkbox for toggling -->
+    <input type="checkbox" id="menu-toggle" />
+
+    <!-- Burger icon on the right -->
+    <label for="menu-toggle" class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav>
+      <ul>
+       <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" style="color:#004080;">About</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="adimission.html">Admissions</a></li>
+        <li><a href="apply.html">Apply</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+    /* HIDE CHECKBOX */
+#menu-toggle { display: none; }
+
+/* BURGER ICON ON RIGHT */
+.burger {
+  display: none;       /* visible only on mobile */
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.burger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #004080;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
+/* NAV STYLING */
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  /* SHOW BURGER ON RIGHT */
+  .burger {
+    display: flex;
+    order: 2;          /* ensures it’s after the logo in flex */
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  /* TOGGLE MENU WHEN CHECKBOX CHECKED */
+  #menu-toggle:checked + .burger + nav ul {
+    display: flex;
+  }
+}
+
+</style>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Gallery</h1>
+<p>Explore photos from our campus, classrooms, and events.</p>
+</div>
+</section>
+
+<section class="gallery-section">
+<div class="container">
+<h2>Campus & Classroom Moments</h2>
+<p>See how we empower our students with practical skills in a vibrant learning environment.</p>
+<div class="gallery-grid">
+<img src="voh beauty.jpg" alt="Campus Life">
+<img src="ictgd.png" alt="Students in Class">
+<img src="ICT2.png" alt="Fashion & Design Class">
+<img src="beauty class.png" alt="Hair & Beauty Training">
+<img src="voh beauty.jpg" alt="Computer Skills Training">
+<img src="voh beauty.jpg" alt="Electrical Installation Training">
+<img src="images/gallery7.jpg" alt="Community Events">
+<img src="" alt="Student Projects">
+</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="container">
+<h2>Want to join our vibrant community?</h2>
+<a href="apply.html" class="btn">Apply Today</a>
+</div>
+</section>
+
+<footer>
+<div class="container footer-grid">
+
+<div>
+<h3>Contact Us</h3>
+<p>Wamwini Area, Kenya</p>
+<p>Email: info@vesselofhope.ac.ke</p>
+<p>Phone: +254 700 000 000</p>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_LINK" width="100%" height="200"></iframe>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="courses.html">Courses</a></li>
+<li><a href="admissions.html">Admissions</a></li>
+<li><a href="apply.html">Apply</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h3>Newsletter</h3>
+<p>Subscribe for updates and new intakes.</p>
+<div class="newsletter">
+<input type="email" placeholder="Enter your email">
+<button>Subscribe</button>
+</div>
+</div>
+
+</div>
+
+<div class="copyright">
+&copy; 2026 Covenant Vessel of Hope Vocational Training College. All Rights Reserved.
+</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
